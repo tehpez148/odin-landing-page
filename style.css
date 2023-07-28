@@ -1,0 +1,36 @@
+
+.header{
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 10%;
+    
+}
+
+.header-links{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 1em;
+    padding-right: 10%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    gap: 1em;
+  }
+
+  a{
+    list-style-type: none;
+    color: #f9faf8;
+    text-decoration: none;
+  }
