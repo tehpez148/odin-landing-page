@@ -1,8 +1,14 @@
 
+body{
+    padding:0;
+    margin:0;
+}
 .header{
     background: #1F2937;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10;
 }
 
 .title{
@@ -30,6 +36,32 @@ ul {
     gap: 1em;
   }
 
+.hero{
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    align-items: flex-start;
+
+}
+.hero-title{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+  }
+  .hero-text{
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+
+  .hero img{
+    align-self: flex-end;
+  }
+
+  .hero button{
+    background-color: #3882F6;
+    border-radius: 12px;
+  }
   a{
     list-style-type: none;
     color: #f9faf8;
