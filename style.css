@@ -12,7 +12,7 @@ body{
 }
 
 .title{
-    font-size: 24px;
+    font-size: 30px;
     color: #f9faf8;
     padding-left: 10%;
     font-family: Arial, Helvetica, sans-serif;
@@ -39,27 +39,36 @@ ul {
 .hero{
     background: #1F2937;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 10%;
     align-items: flex-start;
     flex-wrap: wrap;
+    justify-content: center;
+}
 
+.hero-left{
+  width: 50%;
+}
+
+.hero-right{
+  width: 50%;
+}
+.hero-right img{
+  padding-left: 40px;
 }
 .hero-title{
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
   }
-  .hero-text{
+.hero-text{
     font-size: 18px;
     color: #e5e7eb;
   }
 
-  .hero img{
-    align-self: flex-end;
-  }
 
-  .hero button{
+
+.hero-left button{
     background-color: #3882F6;
     border-radius: 12px;
     color: white;
@@ -67,7 +76,7 @@ ul {
     padding: 10px 25px;
     margin-top:15px;
   }
-  a{
+a{
     list-style-type: none;
     color: #f9faf8;
     text-decoration: none;
