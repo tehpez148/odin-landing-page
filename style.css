@@ -76,9 +76,40 @@ ul {
     padding: 10px 25px;
     margin-top:15px;
   }
+  
 a{
     list-style-type: none;
     color: #f9faf8;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
   }
+.info-title{
+  font-size: 36px;
+  font-weight: 900;
+  margin:auto;
+  text-align: center;
+  margin-bottom: 32px;
+  padding: 5%;
+}
+
+.cards{
+  display: flex;
+  gap: 52px;
+  justify-content: space-around;
+  padding-left:15%;
+  padding-right: 15%;
+}
+
+.box{
+  max-width: 200px;
+}
+.info img{
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+  border: 5px solid #3882F6;
+}
+
+.info-text{
+  font-family: Arial, Helvetica, sans-serif;
+}
